@@ -14,7 +14,7 @@ llvm_versions = [#=v"11.0.1",=# v"12.0.1", v"13.0.1", #=v"14.0.2"=#]
 
 # Collection of sources required to complete build
 sources = [
-    GitSource("https://github.com/Gnimuc/libclangex.git", "0b42d5e72a406e18421d4bd8e79414c56d0bbe3b")
+    GitSource("https://github.com/Gnimuc/libclangex.git", "91266b8a5f4373a8b30a2c0b1178e7dd630d6b1f")
 ]
 
 # Bash recipe for building across all platforms
