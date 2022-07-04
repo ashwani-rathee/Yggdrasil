@@ -8,7 +8,7 @@ include(joinpath(YGGDRASIL_DIR, "fancy_toys.jl"))
 include(joinpath(YGGDRASIL_DIR, "platforms", "llvm.jl"))
 
 name = "libclangex"
-version = v"0.1.6"
+version = v"0.1.7"
 
 llvm_versions = [#=v"11.0.1",=# v"12.0.1", v"13.0.1", #=v"14.0.2"=#]
 
