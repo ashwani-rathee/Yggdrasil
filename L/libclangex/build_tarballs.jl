@@ -58,7 +58,7 @@ for llvm_version in llvm_versions, llvm_assertions in (false, true)
     ]
 
     env = """
-    LLVM_MAJ_VER=$(llvm_versions.major)
+    LLVM_MAJ_VER=$(llvm_version.major)
     LLVM_ASSERTIONS=$(LLVM_ASSERTIONS)
     """
 
